@@ -1,0 +1,135 @@
+html, body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    background: #eeefe9;
+}
+
+.panel-title {
+    font-size: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Abel', sans-serif;
+}
+b, strong {
+    font-weight: 400;
+}
+.lpad {
+    margin-left: 10px;
+}
+.fa-facebook-square {color: #36558E}
+.fa-twitter-square {color: #29AAE3;}
+
+.feature img {
+    margin:10px 0;
+}
+.feature h2{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.carousel-caption {
+    z-index: 10;
+    position: absolute;
+    top: 40%;
+}
+.carousel-inner > .item > img{
+    width: 100%;
+}
+.intro-block {
+    background:#6F3C57 url(../images/purpalt.png) repeat;
+    padding:100px 15px 60px;
+    color: #fff;
+} 
+
+.intro-block sup { font-size: 16px; }
+
+.intro-block img:hover{
+    transition: transform 1s;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+}
+
+.rule img.img-responsive {
+    margin: 0 auto;
+}
+
+.text-muted {
+    color: #e9e6df;
+    font-weight: 300;
+}
+
+.tpad {
+    padding-top: 5px;
+}
+
+.marketing {
+    background-color: #e9e6df;
+    padding: 60px 0;
+}
+.product-content{
+    background-color: #EDEBE4;
+    padding: 60px 0;    
+}
+
+.product-content p.lead{
+    margin-bottom: 40px;
+}
+
+.feature img {
+    margin:25px auto;
+}
+hr {
+    border-top: 1px solid #c9c9c9;
+}
+.info {
+    background: #C0C0C0;
+    padding: 60px 0;
+}
+.info small {
+    color: #eeefe9;
+}
+.info a{
+    color: #fff;
+}
+
+.info a:hover {
+    color: #333;
+}
+
+.tab-pane {
+    padding:40px 10px 0 10px;
+} 
+
+.ftr {
+    background: #599A88 url(../images/shattered.png) repeat;
+    padding: 80px 0 60px 0;
+}
+
+.ftr address, .ftr a, .ftr p{
+    color: #fff;
+}
+
+.ft_space {
+    padding:0 10px;
+}
+
+@media screen and (max-width: 767px){
+    .carousel-inner > .item {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-inner > .item {
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    .carousel-inner > .item {
+        height: 900px;
+    }
+}
